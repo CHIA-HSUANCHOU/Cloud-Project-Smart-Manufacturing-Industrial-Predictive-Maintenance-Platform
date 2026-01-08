@@ -61,6 +61,7 @@ The system displays the **overall machine failure probability** along with a cle
 <pre> 
 ├── firstpage.py                  # Streamlit web application
 ├── ai4i_xgb_pipeline_final.pkl   # Trained XGBoost pipeline (model + preprocessing)
+├── requirements.txt              # Python dependencies required to run the application
 ├── Dockerfile                    # Docker build configuration
 ├── .dockerignore                 # Files excluded from Docker image
 </pre>        
@@ -122,4 +123,5 @@ The deployment process includes:
 2. Uploading the Docker image to Google Artifact Registry  
 3. Deploying the container to Google Cloud Run with predefined CPU, memory, and concurrency settings  
 4. Automatically generating an HTTPS for public access  
+
 
