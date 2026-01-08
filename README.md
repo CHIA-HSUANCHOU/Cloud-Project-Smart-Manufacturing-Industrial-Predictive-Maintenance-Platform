@@ -1,4 +1,4 @@
-
+# Smart Manufacturing - Industrial Predictive Maintenance Platform
 ---
 Project: Smart Manufacturing - Industrial Predictive Maintenance Platform
 
@@ -122,3 +122,4 @@ The deployment process includes:
 2. Uploading the Docker image to Google Artifact Registry  
 3. Deploying the container to Google Cloud Run with predefined CPU, memory, and concurrency settings  
 4. Automatically generating an HTTPS for public access  
+
